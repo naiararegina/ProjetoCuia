@@ -1,0 +1,266 @@
+/*
+*
+*@autora Naiara Regina
+*@version 0.1
+*/
+
+/* =====================Layout===============*/
+html, body, .capa{
+	height: 100%;
+}
+
+body {
+   background: #f8dfc2;
+   background-attachment: fixed;/*fundo fixo*/
+   font-family: Helvetica,Arial,sans-serif;          
+}
+
+/* -- Barra de navegação --*/
+.img-logo{
+	height: 100px;
+	width: 132px;
+	display: block;
+	color: white;
+	/*background: url('imagens/spotify.svg') no-repeat;/*não repete a imagem*/
+	
+	background-size: contain;
+	/*color: transparent;/*letra fica transparente*/
+}
+
+nav.navbar-transparente{
+	padding: 15px 0px;/*tamanho da barra*/
+	background: rgba(0, 0, 0, 0.6); /*transparencia na barra*/
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+/*cores do link, o sinal > seleciona o 1° link filho do item*/
+.navbar-inverse .navbar-nav>li>a{
+   color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+   color: #FFFF00;
+}
+
+/* -- imagens de capa --*/
+.capa{
+ display: table;/*comportamento de tabela*/
+ width: 100%;
+
+}
+
+.texto-capa{
+	text-align: center;
+	color: black;
+	display: table-cell;/*comportamento de celula de tabela*/
+    vertical-align: middle;
+}
+
+/* -- Botões --*/
+.btn-custom{
+	color: white;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    padding: 10px 35px;/*parte de cima, lado*/
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;/*tempo de transição*/
+
+
+}
+
+.btn-roxo{
+  background: #7c25f8;
+}
+
+.btn-branco{
+  border: 3px solid #000000;
+  color: #000000;
+}
+
+.btn-branco:hover{
+  background-color: none;
+  border: 3px solid #F7FE2E;
+}
+
+
+
+
+/* -- Seção servicos --*/
+#servicos{
+	background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+}
+
+#texto{
+    text-align: center;
+    font-size: 120%;
+    margin-top: -2%;
+}
+
+.albuns{
+	padding:10px 0px 10px 0px;
+}
+
+/* -- recursos --*/
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 80%;
+}
+
+.img-circle{
+      width: 150px;
+      height: 150px;
+      margin:0 auto;
+      margin-bottom: 20px; 
+      
+}   
+
+/*=====================Tipografia=================*/
+h1 {
+	font-size: 80px;
+	font-weight: 800px;
+	letter-spacing: -0.05em;
+	margin-bottom: 40px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+h4{
+	font-size: 230%;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#servicos h2, #servicos h3{
+	color: #000000;
+}
+
+
+/* -- modal --*/
+#modal{
+	background: rgba(0, 0, 0, 0.9);
+	color: #F7FE2E;
+}
+#topoEntrar  {
+	text-align: center;
+}
+
+.recupSenha{
+	margin-left: 70%;
+}
+.btn-amarelo{
+	color: #F7FE2E;
+	background: #000000;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    padding: 10px 45px;/*parte de cima, lado*/
+    margin-left: 38%;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;/*tempo de transição*/
+    border-color: #F7FE2E;
+}
+.btn-amarelo:hover{
+  background-color:#FFFFFF;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Page cadastro*/
+#cadastrar {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 100px;
+  margin-left: 34%;
+  max-width: 600px;
+  height: 450px;
+  border: 1px solid black;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 100px;
+  
+
+
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+  color: #000000;
+  border-radius: 500px;
+
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+  color: #000000;
+}
+#topo{
+	margin-top: 5px;
+	color:#F7FE2E;
+}
+.text-info{
+	color:#F7FE2E;
+}
+
+#button{
+	color: #F7FE2E;
+	background-color: #000000;
+    border-radius: 500px;
+    padding: 10px 40px;/*parte de cima, lado*/
+    margin-top: 9px;
+    margin-left: 37%;
+    border-color:#F7FE2E;
+}
+
+#button:hover{
+  background-color:#FFFFFF;
+  color: #000000;
+ }
+
+.text-center{
+	 margin-top: 25px;
+
+}
